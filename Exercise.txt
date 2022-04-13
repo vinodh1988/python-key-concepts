@@ -1,0 +1,26 @@
+1. Create a function which takes two 3 parameters 
+    paramter 1 - list 
+    parameter 2 - index 
+    parameter 3 - list
+
+    name the function as listextend ...it should extend the list in the third parameter 
+    to the list in the first parameter at the specified index 
+
+    after calling the function if you print the first parameter 
+    it should should show the extended list
+
+2. create a function which takes two parameters 
+     Parameter 1: list
+     Parameter 2: value to be removed 
+
+     name the function as removeAll it should remove all occurances of the value
+     in the list 
+
+     after calling the function, if the original list if printed it should 
+     not have the removed element
+
+3. create a function which returns a list if list is passed
+the returned list must contain only even numbers 
+
+4. Create a function which takes dictionary as parameter and returns
+the largest key [in terms of length of the key] in the dictionary keys
