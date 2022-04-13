@@ -14,3 +14,5 @@ elif len("Rahul")>10:
     print("String is more than 10 characters long")
 else:
     print("String is less than 10 characters long") 
+
+    # python does not support  switch statement
