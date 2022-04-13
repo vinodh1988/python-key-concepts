@@ -7,7 +7,8 @@ print(mylist[3:])
 print(mylist[::])
 print(mylist[1:6:2])
 print(mylist[1::2])
-print(mylist[9::-1])
+print(mylist[len(mylist)::-1])
+
 print(mylist[9:5:-1])
 
 mylist.sort()
@@ -20,6 +21,9 @@ mylist.insert(3,15050)
 print(mylist)
 
 mylist.remove(43)
+print(mylist)
+
+mylist.clear()
 print(mylist)
 
 mylist.extend([43,35,64])
