@@ -11,6 +11,9 @@ class Team:
         team3.name=self.name+" Combined with "+team2.name
         return team3
 
+    def updateTeam(self,member):
+        self.members.append(member)
+
     def __repr__(self):
         return "Team: {} and name: {}".format(self.members,self.name)
 
@@ -20,3 +23,5 @@ team2=Team(["Jackson","Storm","Harry"],"Testing")
 print(team2)
 team3=team1+team2
 print(team3)
+team1.updateTeam("Roger")
+print(team1)

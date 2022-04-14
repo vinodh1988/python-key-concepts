@@ -1,3 +1,5 @@
+from Oops import Team
+
 class Person:
     def __init__(self,sno=-1,name="noname"):
         self.sno=sno
@@ -5,6 +7,7 @@ class Person:
 
     def show(self):
         print(self.sno,"  ",self.name)
+
 
     def __repr__(self):
         return "{} and {}".format(self.sno,self.name)
@@ -26,7 +29,9 @@ person5.show()
 print(person1)
 print(person2)
 
+team1=Team(["Raj"],"Solo")
 
+print(team1)
 
 
 #functions with __ at either end are called as
