@@ -1,3 +1,5 @@
+from functools import wraps
+
 def intercept(target):
     def inner(*args,**kwargs):
         print("interceptor logic is working")
@@ -9,4 +11,14 @@ def intercept(target):
         
     return inner
 
+def interceptor(name,type):
+    def wrapper(fun):
+        @wraps(fun)
+        def inner(*args,**kwargs):
+            print("Intercepting")
+            print("parameters passed for interceptor name: {} type:{}".format(name,type))
+            fun(*args,**kwargs)
+            print("interception complete")
+        return inner
+    return wrapper
 
