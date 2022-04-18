@@ -1,0 +1,21 @@
+1.create a python program 
+call filter function which takes list as input
+write callback to filter out only prime numbers
+
+2. create a python program
+call map function which takes list of strings as input
+the output list must have length of the each string
+  
+  example
+             input = ["Raj","Ram","Kiran"]
+             output =[3,3,5]
+
+3.create a python program to find out highest prime number in list
+use reduce function 
+
+4. create a class called Student with properties sno,name and city 
+
+if object is printed it should print output in json format like 
+
+{"sno":1,"name":"Raj","city":"Mumbai"}
+
