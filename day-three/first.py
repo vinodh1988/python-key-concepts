@@ -12,11 +12,12 @@ class  Child(Parent):
         super().__init__(fname)
         self.toyname=toyname
 
-    def print(self):
+    def show(self):
+        super().show()
         print(self.cname," is the name of the child")
         print(self.toyname," is the toyname of the child")
 
 
 firstchild=Child("Ganesh","Robin","Elephant")
 firstchild.show()
-firstchild.print()
+#firstchild.show()
